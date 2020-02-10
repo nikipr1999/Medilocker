@@ -70,15 +70,17 @@
                         <!-- <li><a class="active" href="./Mail/email.php">mail</a></li> -->
                         <li><a class="active" href="index.html">Home</a></li>
                         <li><a data-scroll href="#about">About us</a></li>
-                        <li><a data-scroll href="#service">Services</a></li>
-                        <li><a data-scroll href="#doctors">Doctors</a></li>
-                        <li><a data-scroll href="#price">Price</a></li>
-						<li><a data-scroll href="#testimonials">Testimonials</a></li>
+                        <li><a data-scroll href="#service">Appointments</a></li>
+                        
+                        
+      						<li><a data-scroll href="#testimonials">Testimonials</a></li>
+                        <li><a data-scroll href="#">My Profile</a></li>
                         <li><a data-scroll href="#getintouch">Contact</a></li>
+                        <li><a data-scroll href="#">login</a></li>
                      </ul>
                   </div>
                </nav>
-               <div class="serch-bar">
+               <div class="search-bar">
                   <div id="custom-search-input">
                      <div class="input-group col-md-12">
                         <input type="text" class="form-control input-lg" placeholder="Search" />
@@ -222,7 +224,7 @@
          </div>
          <!-- end container -->
       </div>
-     <!--  <div id="service" class="services wow fadeIn">
+     <div id="service" class="services wow fadeIn">
          <div class="container">
             <div class="row">
                <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
@@ -237,21 +239,21 @@
                      <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                         <div class="serv">
                            <span class="icon-service"><img src="images/service-icon2.png" alt="#" /></span>
-                           <h4>LARGE LABORATORY</h4>
+                           <h4>LARGE DATA STORAGE</h4>
                            <p>Lorem Ipsum is simply dummy text of the printing.</p>
                         </div>
                      </div>
                      <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                         <div class="serv">
                            <span class="icon-service"><img src="images/service-icon3.png" alt="#" /></span>
-                           <h4>DETAILED SPECIALIST</h4>
+                           <h4>DETAILED RECORDS</h4>
                            <p>Lorem Ipsum is simply dummy text of the printing.</p>
                         </div>
                      </div>
                      <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                         <div class="serv">
                            <span class="icon-service"><img src="images/service-icon4.png" alt="#" /></span>
-                           <h4>CHILDREN CARE CENTER</h4>
+                           <h4>APPOINMENTS NOTIFICATION</h4>
                            <p>Lorem Ipsum is simply dummy text of the printing.</p>
                         </div>
                      </div>
@@ -265,7 +267,7 @@
                      <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                         <div class="serv">
                            <span class="icon-service"><img src="images/service-icon6.png" alt="#" /></span>
-                           <h4>ANYTIME BLOOD BANK</h4>
+                           <h4>ANYTIME ACCESS</h4>
                            <p>Lorem Ipsum is simply dummy text of the printing.</p>
                         </div>
                      </div>
@@ -273,36 +275,57 @@
                </div>
                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                   <div class="appointment-form">
-                     <h3><span>+</span> Book Appointment</h3>
+                     <h3><span>+</span> ADD Appointment</h3>
                      <div class="form">
                         <form action="index.html">
                            <fieldset>
                               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                  <div class="row">
                                     <div class="form-group">
-                                       <input type="text" id="name" placeholder="Your Name"  />
+                                       <input type="text" id="name" placeholder="Appointment Name"  />
                                     </div>
                                  </div>
                               </div>
-                              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                              <!-- <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                  <div class="row">
                                     <div class="form-group">
                                        <input type="email" placeholder="Email Address" id="email" />
                                     </div>
                                  </div>
-                              </div>
+                              </div> -->
                               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 select-section">
                                  <div class="row">
                                     <div class="form-group">
+                                       <input type="date" placeholder="date" id="data" />
+                                    </div>
+                                    <!-- <div class="form-group">
                                        <select class="form-control">
                                           <option>Day</option>
                                           <option>Sunday</option>
                                           <option>Monday</option>
+
+                                       </select>-->
+                                    </div> 
+                                    <div class="row">
+                                    <div class="form-group">
+                                       <select class="form-control">
+                                          <option>Time</option>
+                                          <option>1</option>
+                                          <option>2</option>
+                                          <option>3</option>
+                                          <option>4</option>
+                                          <option>5</option>
+                                          <option>6</option>
+                                          <option>7</option>
+                                          <option>8</option>
+                                          <option>9</option>
+                                          <option>10</option>
+                                          <option>11</option>
+                                          <option>12</option>
                                        </select>
                                     </div>
                                     <div class="form-group">
                                        <select class="form-control">
-                                          <option>Time</option>
                                           <option>AM</option>
                                           <option>PM</option>
                                        </select>
@@ -311,13 +334,13 @@
                               </div>
                               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                  <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                 <div class="row">
                                     <div class="form-group">
-                                       <select class="form-control">
-                                          <option>Doctor Name</option>
-                                          <option>Mr.XYZ</option>
-                                          <option>Mr.ABC</option>
-                                       </select>
+                                       <input type="text" id="doctor_name" placeholder="Doctor Name"  />
                                     </div>
+                                 </div>
+                              </div>
                                  </div>
                               </div>
                               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
