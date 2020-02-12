@@ -1,6 +1,6 @@
 <?php
 
-$email='nikiprajapati1999@gmail.com'; 
+$email=$POST['email']; 
 
 
 // Import PHPMailer classes into the global namespace

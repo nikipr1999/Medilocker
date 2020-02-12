@@ -28,5 +28,5 @@ $password=$_POST['pass'];
   alert('Sorry, unable to connect to the server.');
  }
 
-header('location: ../index.html');
+ header('location: ../index.html');
  ?>
